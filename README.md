@@ -5,32 +5,32 @@ School of Intelligent Mechatronics Engineering
 Unmanned Vehicle Engineering Major  
 지능기전공학부 무인이동체공학전공
 
-![Tech stack][stack-title]
+## Tech stack
 
 <a href="https://www.python.org/" title="Python"><img src="https://go-skill-icons.vercel.app/api/icons?i=python&amp;theme=dark" width="40" height="40" alt="Python"></a>&nbsp;<a href="https://pytorch.org/" title="PyTorch"><img src="https://go-skill-icons.vercel.app/api/icons?i=pytorch&amp;theme=dark" width="40" height="40" alt="PyTorch"></a>&nbsp;<a href="https://scikit-learn.org/" title="scikit-learn"><img src="https://go-skill-icons.vercel.app/api/icons?i=scikitlearn&amp;theme=dark" width="40" height="40" alt="scikit-learn"></a>&nbsp;<a href="https://pandas.pydata.org/" title="pandas"><img src="https://go-skill-icons.vercel.app/api/icons?i=pandas&amp;theme=dark" width="40" height="40" alt="pandas"></a>&nbsp;<a href="https://numpy.org/" title="NumPy"><img src="https://go-skill-icons.vercel.app/api/icons?i=numpy&amp;theme=dark" width="40" height="40" alt="NumPy"></a> <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&amp;theme=dark" width="40" height="40" alt="FastAPI"></a>&nbsp;<a href="https://azure.microsoft.com/" title="Microsoft Azure"><img src="https://go-skill-icons.vercel.app/api/icons?i=azure&amp;theme=dark" width="40" height="40" alt="Microsoft Azure"></a>&nbsp;<a href="https://git-scm.com/" title="Git"><img src="https://go-skill-icons.vercel.app/api/icons?i=git&amp;theme=dark" width="40" height="40" alt="Git"></a>&nbsp;<a href="https://docs.github.com/en/actions" title="GitHub Actions"><img src="https://go-skill-icons.vercel.app/api/icons?i=githubactions&amp;theme=dark" width="40" height="40" alt="GitHub Actions"></a>&nbsp;<a href="https://www.notion.com/" title="Notion"><img src="https://go-skill-icons.vercel.app/api/icons?i=notion&amp;theme=dark" width="40" height="40" alt="Notion"></a>
 
----
+## Projects
 
-![Projects][work-title]
+### MLB Pitch Recommender [![MLB Pitch Recommender 저장소][github-badge]][pitch]
 
-**저출생 대응 예산과 출생환경** [![저출생 대응 예산 분석 저장소][github-badge]][yumocha]  
-전국 17개 시도의 저출생 대응 예산과 지역 여건 비교  
-고용, 주거, 보육 등 28개 지표를 통합해 가중지수 산출
-
-**MLB Pitch Recommender** [![MLB Pitch Recommender 저장소][github-badge]][pitch]  
 MLB Statcast 투구 기록으로 다음 구종을 예측하는 LSTM과 FastAPI 웹 데모 개발  
 Top 3 정확도 **83.53%** (빈도 기준선 80.05%)
 
-**Barumi** [![바르미 저장소][github-badge]][barumi]  
+### Barumi [![바르미 저장소][github-badge]][barumi]
+
 한국어 발음 연습 서비스 / 팀장 겸 AI 담당  
 Azure Speech로 단어별 발음 평가 실험 중
 
-**국내 주요 시험의 성적분포** [![국내 주요 시험의 성적분포 저장소][github-badge]][exams]  
+### 저출생 대응 예산과 출생환경 [![저출생 대응 예산 분석 저장소][github-badge]][yumocha]
+
+전국 17개 시도의 저출생 대응 예산과 지역 여건 비교  
+고용, 주거, 보육 등 28개 지표를 통합해 가중지수 산출
+
+### 국내 주요 시험의 성적분포 [![국내 주요 시험의 성적분포 저장소][github-badge]][exams]
+
 진행 중
 
----
-
-![Competitions][competitions-title]
+## Competitions
 
 **2026 대학(원)생 재정데이터 분석 경진대회** / 본선 진출 (9팀 선정) [![기획예산처 대회 발표][event-badge]][fiscal]  
 기획예산처 / 한국재정정보원
@@ -43,14 +43,10 @@ MealMeter / 주문 시각과 대기열 정보로 학식 대기시간을 예측�
 
 **Sejong AI Challenge 2025S** / 동상
 
----
+## Experience
 
-![Experience][experience-title]
-
-**아롬 (ALOM)** [![ALOM GitHub @TEAM-ALOM][alom-badge]][alom] [![ALOM Instagram @alomsejong][insta-badge]][insta]  
-세종대학교 중앙 개발 동아리  
-행정국장 (2025 ~ 2026.07)  
-AI 멘토 (2025 ~ 2026.07)
+**아롬 (Alom)** / 세종대학교 중앙개발동아리 [![Alom GitHub @TEAM-ALOM][alom-badge]][alom] [![Alom Instagram @alomsejong][insta-badge]][insta]  
+행정국장 / AI 멘토 (2025 ~ 2026.07)
 
 **TA** / 세종대학교 / 2025.03 ~
 
@@ -69,7 +65,3 @@ AI 멘토 (2025 ~ 2026.07)
 [insta]: https://www.instagram.com/alomsejong/
 [exams]: https://github.com/Jun9u/2026-DataVisualization-Exam-Score-Distributions
 [fiscal]: https://www.mpb.go.kr/web/main/bbs/b_0001/2599
-[stack-title]: https://kroki.io/vega/svg/eNpVj00PgjAMhv8KqdeZoILobt68a-LBeFigwMIchBUECf_djfhFD83b523TdoCHTCgHvgoCBjnKLCfgG6srkSRSZ8B9BqKh0sgnAgddagQGd1EXBvh1AOorxwk7shx1XCa2HqwirJ3oXGqFaiz2Rwb9X72OLJhGfwzOGOeeIREXYN201DP3iKpFkrFg3qGWQjHPCG2WBmuZfvpP063zLY5f3v99nch3F6VSqf8Vi-0-CnchjDZu4wuUql6B
-[work-title]: https://kroki.io/vega/svg/eNpVj71uwzAMhF8luK4K4KS13WrLlrFAhw5BBsGmY7WKZEi0a8fwu1cK-pNwIHjfkSA540vX3EJuNoVAS_rUMuTjk0Cn6lrbE2QmoHp2QV8IEtZZgsBZ-c8AeZjBU5c408iRk61cHfUcKyafijGlQZk-4mwRmG70tozgOvrP8OrdB1UcEL3G2TtvT2Yg1pUSq53XyohVUDasA3nd_Pa_XS-935H4-893f06ZpXsabcztiofipcyfcywxjss39axeEA==
-[competitions-title]: https://kroki.io/vega/svg/eNpVj0FPwzAMhf9K9bgGqVBKt9wmLrvvwAFxiFp3tZYmVeONjar_nWQCtvpg-X3Plu0JX9xIB_20KhQ64n0n0MWLwmCaht0eOlcwR_GBvwkazjuCQm_GQ4D-mCCXIXGhs0ROrvZN1FOshMZUnFM6GXuMOJ8VLnf6uYrgOnpjePP9QMLC3gVEv_Vu4W_JnqJfG5VtRjZWZcG48Bho5Pavf3e9drkn8fffD_-dKk83tWzt_YqH13VVrkrMMT7nH6oAX8g=
-[experience-title]: https://kroki.io/vega/svg/eNpVj7sOwjAMRX8FXdYglUcpZGNAYmdgQAxR69KIkFZNgJaq_46DeHqw7HP97HDTmS8gx_FCoCB9LDzkdCZQqSzT9ggZCaiLL52-EyRsaQkCZ1WfHOS-g2-rwD01njnZtMw47zjyVIegCe6qzIVx1Au0P_kkYfBs_TKsm4pqzZMIrOal_VM3ZK7kdarEYFVrZcTAKetGjlvyd_32eev_lsB3r_8-ShKFi3JtzO-K4XyZxIsYPduhfwDEsF7U
