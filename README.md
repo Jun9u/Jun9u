@@ -1,37 +1,42 @@
-![Jun9u. Machine learning & data. 건반을 연주하는 지준구의 프로필.][cover]
+![지준구 (Jun9u) — Applied AI / Data Analysis][cover]
 
-**지준구**  
-세종대학교 지능기전공학부 무인이동체공학전공  
-밴드 ZIZZY에서 키보드 연주.
+**세종대학교 지능기전공학부**  
+무인이동체공학전공 4학년
 
-## Projects
+현재 한국어 발음 연습 서비스 **[바르미][barumi]** 팀장 겸 AI 개발 담당.  
+Azure Speech의 단어별 평가 결과를 처리하고, 발음 오류와 음성 인식 실패를 구분하는 로직 실험 중. [발음 평가 PR][speech]
 
-**[Barumi][barumi]**  
-한국어 발음 연습 서비스 바르미. 팀장과 AI 개발을 맡아 녹음에서 단어별 발음 점수와 오류를 추출하는 실험 진행 중. [실험 코드][speech]
+## Selected work
 
-**[MLB Pitch Recommender][mlb]**  
-MLB 투구 기록으로 다음 구종을 예측하고 추천 코스를 보여주는 웹 데모. 데이터 수집부터 PyTorch 모델 학습, FastAPI 구현까지 진행한 개인 프로젝트. [발표 자료][slides]
+### [MLB Pitch Recommender][pitch]
 
-**[저출생 대응 예산과 출생환경][yumocha]**  
-유모차 팀에서 17개 시도의 고용, 주거 등 28개 지표를 정리하고 지역별 가중지수 산출. [지수 산출 코드][index]
+MLB Statcast 기록으로 다음 구종 후보를 예측하고 투구 코스를 추천하는 딥러닝실습 개인 프로젝트. 데이터 수집, 모델 비교, FastAPI 웹 데모 구현까지 담당.  
+LSTM의 다음 구종 Top-3 정확도 **83.53%**. 투수와 볼카운트별 빈도를 사용한 기준선은 **80.05%**. [실험 결과][metrics]
 
-**[긱SEEK][gikseek]**  
-생활 습관이 비슷한 기숙사 룸메이트를 찾는 해커톤 프로젝트. 설문 테스트 데이터를 만들고 매칭 결과를 시각화. [서비스 화면][demo]
+### [저출생 대응 예산과 출생환경][yumocha]
 
-## Experience
+전국 17개 시도의 예산과 출생환경을 비교한 유모차 팀 프로젝트. 고용, 주거 등 28개 지표를 지역과 연도별로 통합하고 결측 처리, 표준화, 가중지수 산출을 담당. [지수 산출 PR][index]
 
-세종대 SW/AI 해커톤 장려상 2회 (2025)  
-AI Challenge 동상 (2025)
+### [긱SEEK][gikseek]
 
-AI 멘토  
-고급프로그래밍활용 수업 조교
+기숙사생의 수면 습관과 생활 성향을 반영한 룸메이트 매칭 서비스. 해커톤 팀에서 테스트용 설문 응답을 생성하고 매칭 결과를 시각화. [기여 코드][match]
 
-[cover]: https://kroki.io/vega/svg/eNqdWtluGzkW_RVCAeap3CAv97x1yzaCQfJQEJAG0siDJlYSoRU5sN1rkH-fcy5LluQeTZUcwKFY5Lnnblyrvs3-WN88fJ69rMl2s8-r9afPD7OXklI3W_72cHu__ns1eznb3m5Xs272dXlzs95-mr1E1_8sP_z66e72t-0N2l9cl8vrHNDlZvmwnL385dtsu_xC5Fc8-325-W11r0_Z-U2s1aSw8c6bUEwwyVzkaJwEc-Es6hfe4T80XXhzkQzaLtD4NyR9VGqIct3sD_z-wX7vBqGlxs5ZMfMaQperqTZ1Lpsa8LjgKSxyeJpD54OpNXXeNoFOBYoKlB_Ko8BYqonyTC3lQKh7IjTEZwr1R0LzXqgNxmW_8RBHPOAQdhGMpXz8jMdy8yAvHMnbuzJGCoDpNpuQAROTIc9bwEM-svCfcYixAhw3Yg2oPCNtLoTwARinAbNJDkC3B6ZTwGIBLDtgaYxuAuMxcGC044wJeeacO9_GJ0AwykRG8QDCOe4JYxhjPAaW6TYG5KV7hlefAM_wasoYCc_x6jFw8OqEzEkFiS6HXvUTGY-B072aMRqdlPNtfAKc7tXskXL-GV59Atx7NYwxRqScDwSG5hw_LXOeAM-wkXOof45Xj4FnMNZkXHD_HI-jjMfA8jgDjHm1YBVzIZw_Hp8Ap885JSDlwjO8-gQ43auR4cAS4MRQx2iw8lw4Zs8AzGNAp0BvoO2Fc3tgOQVkOGzdgORMxpob0BnShMmMic5xz7DxEXhko0xghPudUxupX2qM_BtjTNKAZ9tYQCWy82qabuMO-GhjaYxuhDGDhNPjMaOMMzZgZTjOszFzl-Xl_Dg-Ap_aOMpYnU5WZ3v1EdhUnW5jYcqEZ9j4CDyycUKuFmzOHTbIZ8ex-NiAbmfjxMyJWMpj2dBF3IQXI3BOJTCM7XSxl09uU7iEoHs03MUX7th381w9iQwmF-zXMSeKzpHGDhBn_w9bzps2hnV93Nt2GlR5hmigaDKR4yBuUvU04XgEqZO0Sxba2WZRUU9OAbk9EWZTN1E9eFodYWlTmchUTLGNyetxaAIG-a5BcmfweGdyOtsi5GrGAk1U0WSaQoXlINfmhqTnvUkgMSU0kB4-J6kXkimpgQbnTQDFQ6Y8TTucAIvAD48myTgo29yVNM82dhXn3Vq7inNwDV2VRSpow06p2q74RaqlyxgP1nc5L7Ch7goPtoS_G0jcSZLUFQeS0GGAk6RgV1MjCpBUCkrVdbk2EmkkfpFtBZdp8B2JnDh2U2wur7MVQA_vJpwfLieONucwd54F5sK94jvsR7JDLcEytCEPXaB6bMM5N0uBCovs8RA-UPio1d7BXCWBF5XENRILEq-CHHwgSkLXSlbXerShp8LHrM4CjdxrrMOAjlkdE8yd54jocsiUzlnwBI8SKnm0Ysx6KAhLAwIL10SBEoscYQOmKBUwaneEUQU0MFiUhmIDSANICvMsB2RPaiS2kYAyFqZHg4_aHdj5dY5wkhuzuzjEd55z0SuunAUlbEusQ6eEZhiXoC9MRSvDlZn7i1w8B0STMGp4sbBYebhwQBDdDJYKQUk01VLQ8JMEtYzEhgJF1LsKHzU8Izvqaxy9YP-I4YkXediclbZIcoHO-2OECyeHK3YR1m_Q2Q-rpStTcMKLr0w-Gea6aXw8uDpHPjngk1EcolbKoCZvFIBLe5yMwBJhbZlx8UDNk-cyHBerDFq2hebQPBmBJcIGunRAd_r8KKbGY7o0gW6AHdLFA2eepMPxtD5xZh535g526Mwp1uXC68q019NP43vEReLSI-G4fbwB4onzzGx5xJ1Kl5OEvABy_h8WjgZwh3ti4Xh-6jBK52fMDnduysQSuyhzLTDaS2iFR7GImNOwh9HCLbTNGu1pUUt42Gq7-e6UctVark7zgtWdq1Wp5bBclJrZboZyweeYddm91gXRlS8zVMgIVYRnXarzoTQRE4_L0BozK8pFxJzcnrMsC21P2bT-GfXE50O9vhubFmonLs1bmbFzK0OZWS4KVnS0D_W4aO3BtP5hUbzl86GeRtgwKbjseHLFKa8PPK3hcMhTZup54cyaFn20WmNOhNBHXrchjEzf0vPFhmeIMXry2yivSn6LXz12c-zF24coPRYdl_SdB7zS8xIEO7pQWfQht1pstaBaNeXevXGudXJWm7F0UVCPTQTEGhbevs3plRMH2tKjpFpQhsp61GkCVaUNuaeurZ7UbKfm8xlxtafOTg--vDZhPQyyAq-KlCp7WvgW8X_lQnnrfHilogNFlgaNCXVay6MsoAmiuBRmvf9hCdsyH9i3g1yxkOsEZegF5sJUsQWJ2guGH_bDTIWce4E6GYd5z6NeLyFpDcEpqCVrsDdhgflCVRQPz7jSo-SrGSPC2RJdJSsFl6LaUzZrvGWwgipnOAx-HEKdoz76PsBo6VXwuze-xaQX3vjBMOE8nKEudqpMeuEVYgITw44EEb5UiA5KBvWnNOe8lhbGvpUgrV5jITWoM1U-YiUMPmLnLXO19J57EiSRt2yvveetGutOY446gxGNF8be9p5xhHwvQfm8tPeEWrrU6nBAK4d2GKz94TGWUEGL-MqLNIk2NAZbGyPY-WqQPvf6ikGMekoggZpDqloksIijhHW-NhN4RtMDHkhF5UmifLgdZWlV5kHijrinO9XLOCnRyZlDUrBbjqjBhRi15I00xGnNc9T2HikOCR6pmqEiEgd-9zrhi1Y5RjzHCIY-O7tELGNKH1mN9RD7IQlshGn6rtF4zSCY6pKq7plYjEVlYrIoRWuFNd4haNecFJmD-kwJePiBWGk1q8nOIxndF3UgcPNcNV2KaPYUtom6CgUHAv4qe8bmx1qacowDlW3Kw4oSNJV9Hsyj4xPdkXWi0bLNNL5EnWm83lJhG110yPe-2paddcg-cqEeNFsxwVqdkVCPmt1Bh1JEvehME-hAYXvdzTTB58eZJnA4Y6YJCFLQRC8NipkmcCAwpKTETONrm2AHq06sA--_v8eTD8vN8CHB8HnBB_R--Osrf97e3ay3yw2_Qbj9slxv0Q2LZied77B2dzhedlhZsYx2OP9wBcSiiPWPSx1E3y23nyDll9mLy5_mKSWIGT56eOGuxQo_FnhxLVfXV4W_5nEuP1X-ugyXfn6prfk6XV3zl71C_BSBeS8Kv4t44YOvPioiX8mPSVuTYHXkr1BCDdrv2l5dXumv-lO9rKJsLlzKXPvNw2WoM_XGl-Xdr80Zgwe-Lh8-03t3t19mL78Nn2LMvs6-d7PV9sPtzYpPV9uH1R1_aG-UH9erDZfYG_b7uN5s-FA9Pfh31-EjO9w_3N3-ujrV5X7f5ef2Wcle_h_7tn_fMjzf2ochaGqfkXzHv-7RmIfVnw-z_6n4nwfQECH0r4MH4iqeKPiA4M3yw-f1dmU2q-Xddr39ZP5l1Du0-Hb7sNCvXPYywvD8UMSr1eb31cP6w7IzP96tl5vO3C-39xf3q7v1x0PP7frv0uY7P5W5X21Af9j8ZX1zA_fR5vff_wv8d8IN
+## Teaching & awards
+
+**교육 활동**  
+고급프로그래밍활용 조교. 주차별 실습 문제와 자동 채점 테스트케이스 운영.  
+AI 멘토
+
+**수상 (2025)**  
+세종대 SW/AI 해커톤 장려상 2회  
+AI Challenge 동상
+
+[cover]: https://kroki.io/vega/svg/eNq1VNtO3DAQ_RXLvG6tjO_et2zoKq3gqVKQqPoQSICIkKySLIUi_r0z2QtbulBa0Twk4zO34-NxHvj3qhiu-NTbaMKvyuryauBT8LhY5EVRNZd8ina-HNq--lHyKW_apuQTfpafX1927bIpEDuAGA4lIHyTd9c9n3594MP9gsIXOVaf8LI5bwtcP6A1lB0Zowe_t3m9pMjjEAlgygmbQeRFSCGKhMoIOD3WSmimNa6NFD41niwrfEIWs154hg7DvGQ6oq8T-khbTApGmMRoDAggLLOjV4nArMKl08Il1uISMWBOIjby8JFwLCjhjjxV8VQFgzU5LDUcX2plEZMVMayiM-J5egygsCmysZnGoBSUFCEBBVgY-SgGEpsTIWAAEcZadB0BaGRoA_IC6Qj1QjJQllCJCYAlJTNGqAT0uJERNXJFCWOtITRQMXzbsW4CmLHphnw2HLQjYUd-KIPLiC9yjxyWcCrzIACZY8EMxZApoKZyjaJYOnPjTg0J4wRklEilEMhCEDoFaVAA8mGco2NwmI8Hm8oItkctAbDDClaByko0okSOalnJ5EY2uzaRd8g0UDMvkZLG7aZS0k7HN54JI2MULTAJ6MfWp_xxwi-qut6dvIN5PJ_NY_6Iz2Q7uUN5N-yf3LudZK2w4P0OAMojMibvtPi8bMJy7N02w5fxJm2dEtb4bkJa1rflUJ3nExZ3VV5PWJ83_Ye-7KqLTZ2T9XV9ymra7iav9-5xFmYfE02us7wv66rZpcBvqqKoy2cKdMu6_LMCBp5LoAICd_L3mF0ING27H7r2-hcmB9rooOd86zxZ_aCeEt-HpI7eQNJG-znGfuYO7csc1b-MkjHwjKOTe0YpXizqqixY_OmFeVLRu83TWVsXr96Yv5imfxUB_417VDjMh5zFTV7f91X__4V45WK9WYpvjz8BZdcdLA==
 [barumi]: https://github.com/Jun9u/Barumi
 [speech]: https://github.com/Jun9u/Barumi/pull/3
-[mlb]: https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender
-[slides]: https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender/blob/main/docs/final_presentation.pdf
+[pitch]: https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender
+[metrics]: https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender#1-핵심-결과
 [yumocha]: https://github.com/Yumocha/yumocha
 [index]: https://github.com/Yumocha/yumocha/pull/87
 [gikseek]: https://github.com/2025-Sejong-Hackathon
-[demo]: https://github.com/user-attachments/assets/a8b4a524-9220-4619-b8e9-3cec364cf630
+[match]: https://github.com/2025-Sejong-Hackathon/hackathon-AI/commit/b3efbc8d8a48e58cd731ee10cdb23a29eee3bacc
