@@ -1,45 +1,58 @@
-# 지준구
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=166&amp;color=0:172554,52:4F46A8,100:087E83&amp;text=Jun9u&amp;fontSize=62&amp;fontColor=FFFFFF&amp;fontAlign=20&amp;fontAlignY=42&amp;desc=AI%20ENGINEERING%20%20%2F%20%20DATA%20ANALYSIS&amp;descSize=15&amp;descAlign=71&amp;descAlignY=43" width="100%" alt="Jun9u · AI Engineering / Data Analysis" />
+</p>
 
-세종대학교 지능기전공학부 무인이동체공학전공 · AI 응용 개발과 데이터 분석
+<p align="center">
+  <strong>지준구</strong> · 세종대학교 지능기전공학부 무인이동체공학전공
+</p>
 
-## 프로젝트
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,fastapi,azure,git,githubactions&amp;theme=dark" width="332" alt="Python, PyTorch, scikit-learn, FastAPI, Azure, Git, GitHub Actions" title="Python · PyTorch · scikit-learn · FastAPI · Azure · Git · GitHub Actions" />
+</p>
 
-### [MLB 구종·투구 위치 추천](https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender)
+## Projects
 
-**2026년 1학기 · 딥러닝실습 개인 프로젝트**  
-같은 타석에서 앞선 공을 보고 다음 구종 후보를 예측. MLB Statcast 기록에서 구종과 코스별 기대득점 변화를 구해, 경기 상황을 넣으면 추천 코스를 스트라이크존에 표시하는 웹 데모 구현.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>딥러닝실습 · 개인 프로젝트</sub>
+      <h3>⚾ <a href="https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender">MLB 구종·코스 추천</a></h3>
+      MLB 투구 기록으로 다음 구종 후보를 예측하고, 기대득점 변화를 기준으로 추천 코스를 스트라이크존에 표시.<br><br>
+      <code>PyTorch</code> <code>FastAPI</code><br>
+      <a href="https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender/blob/main/docs/final_presentation.pdf">발표 자료</a> · <a href="https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender/blob/main/outputs/outcome_recommendation_sample.csv">투구별 추천 결과</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>캡스톤 · 팀장 / AI · 진행 중</sub>
+      <h3>🎙️ <a href="https://github.com/Jun9u/Barumi">바르미</a></h3>
+      한국어 발음 연습 서비스. 단어별 발음 점수와 오류 유형을 추출하고, 음성 인식 실패를 별도로 처리하는 코드 실험 중.<br><br>
+      <code>Azure Speech</code> <code>pytest</code><br>
+      <a href="https://github.com/Jun9u/Barumi/pull/3">발음 평가 실험 PR</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>유모차 팀 · 공공데이터 분석</sub>
+      <h3>📊 <a href="https://github.com/Yumocha/yumocha">저출생 예산과 출생환경</a></h3>
+      17개 시도의 예산과 출생환경을 비교. 고용·주거 등 28개 지표를 지역·연도별로 모아 결측 처리와 가중지수 산출 담당.<br><br>
+      <code>pandas</code> <code>AHP</code><br>
+      <a href="https://github.com/Yumocha/yumocha/pull/84">지표 통합</a> · <a href="https://github.com/Yumocha/yumocha/pull/87">지수 산출 PR</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>세종대 해커톤 · 팀 프로젝트</sub>
+      <h3>🏠 <a href="https://github.com/2025-Sejong-Hackathon">긱SEEK</a></h3>
+      생활 습관이 비슷한 기숙사 룸메이트를 찾는 서비스. 수면·청결·성격 설문으로 테스트 데이터를 만들고 매칭 결과를 시각화.<br><br>
+      <code>scikit-learn</code> <code>Seaborn</code><br>
+      <a href="https://github.com/2025-Sejong-Hackathon/hackathon-AI/commit/b3efbc8d8a48e58cd731ee10cdb23a29eee3bacc">데이터 생성·시각화 코드</a>
+    </td>
+  </tr>
+</table>
 
-`Python` `PyTorch` `FastAPI` · [발표 자료](https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender/blob/main/docs/final_presentation.pdf)
+## 수상 · 활동
 
-<details>
-<summary>⚾ 한 타석에서 볼카운트가 바뀌면?</summary>
+🏅 **2025**　세종대 SW·AI 해커톤 장려상 2회 · AI Challenge 동상  
+💻 **교육**　AI 멘토 · 고급프로그래밍활용 수업 조교  
+🎹 **ZIZZY**　밴드 키보드 · 합주와 공연에 쓸 신스 톤 제작
 
-2025년 6월 2일, 8회 무사 주자 없는 상황. 같은 타석에서 볼카운트가 바뀔 때마다 모델이 추천한 다음 공.
-
-| 볼카운트 | 1순위 추천 | 스트라이크존 위치 |
-| --- | --- | --- |
-| 2볼 0스트라이크 | 싱커 | 오른쪽 가운데 · 6번 |
-| 2볼 1스트라이크 | 싱커 | 오른쪽 위 · 3번 |
-| 3볼 1스트라이크 | 싱커 | 가운데 위 · 2번 |
-
-[해당 타석의 실제 투구와 추천 결과 비교](https://github.com/Jun9u/2026-DeepLearningLab-Pitch-Recommender/blob/main/outputs/outcome_recommendation_sample.csv)
-
-</details>
-
-### [저출생 대응 예산 × 출생환경지표 분석](https://github.com/Yumocha/yumocha)
-
-**유모차 팀 · 공공데이터 분석**  
-17개 시도의 저출생 대응 예산과 지역 여건을 연도별로 비교. 고용·주거 등 구조환경지표 28개를 지역·연도별로 정리하고, 결측 처리부터 표준화·가중지수 산출까지 담당.
-
-[지표 통합 PR](https://github.com/Yumocha/yumocha/pull/84) · [가중지수 산출 PR](https://github.com/Yumocha/yumocha/pull/87)
-
-## 진행 중
-
-**[바르미](https://github.com/Jun9u/Barumi)** · 한국어 발음 연습 서비스 / 팀장·AI 담당  
-Azure 발음 평가에서 단어별 점수와 오류 유형을 추출하는 코드 작성. 녹음 인식 실패와 발음 점수 0점을 구분하는 처리 및 테스트를 검토 중. [실험 PR](https://github.com/Jun9u/Barumi/pull/3)
-
-## 활동
-
-- 2025 세종대 SW·AI 해커톤 장려상 2회 · AI Challenge 동상
-- AI 멘토 · 고급프로그래밍활용 수업 조교
-- 밴드 ZIZZY에서 키보드 연주. 합주할 곡에 맞춰 신스 톤과 건반 스플릿을 직접 구성.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jun9u&amp;bg_color=192341&amp;color=D4DDF6&amp;line=53D7C4&amp;point=A5B4FC&amp;area=true&amp;area_color=376C8A&amp;hide_border=true&amp;radius=12&amp;height=225&amp;custom_title=Jun9u%20%E2%80%A2%20GitHub%20activity" width="100%" alt="Jun9u의 최근 31일 GitHub 기여 그래프" />
+</p>
