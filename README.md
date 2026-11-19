@@ -13,6 +13,7 @@ Unmanned Vehicle Engineering Major
 
 ### MLB Pitch Recommender [![MLB Pitch Recommender 저장소][github-badge]][pitch]
 
+딥러닝실습 개인 프로젝트 / 2026.03 ~ 2026.06  
 MLB Statcast 투구 기록으로 다음 구종을 예측하는 LSTM과 FastAPI 웹 데모 개발  
 Top 3 정확도 **83.53%** (빈도 기준선 80.05%)
 
