@@ -46,7 +46,7 @@ MealMeter / 주문 시각과 대기열 정보로 학식 대기시간을 예측�
 ## Experience
 
 **아롬 (Alom)** / 세종대학교 중앙개발동아리 [![Alom GitHub @TEAM-ALOM][alom-badge]][alom] [![Alom Instagram @alomsejong][insta-badge]][insta]  
-행정국장 / AI 멘토 (2025 ~ 2026.07)
+행정국장, AI 멘토 (2025 ~ 2026.07)
 
 **TA** / 세종대학교 / 2025.03 ~
 
